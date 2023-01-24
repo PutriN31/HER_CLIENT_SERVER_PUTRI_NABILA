@@ -1,0 +1,8 @@
+com\putri\peminjaman\service\VO\Buku.class
+com\putri\peminjaman\service\PeminjamanServiceApplication.class
+com\putri\peminjaman\service\controller\PeminjamanController.class
+com\putri\peminjaman\service\VO\ResponseTemplateVO.class
+com\putri\peminjaman\service\service\PeminjamanService.class
+com\putri\peminjaman\service\repository\PeminjamanRepository.class
+com\putri\peminjaman\service\VO\Anggota.class
+com\putri\peminjaman\service\entity\Peminjaman.class
