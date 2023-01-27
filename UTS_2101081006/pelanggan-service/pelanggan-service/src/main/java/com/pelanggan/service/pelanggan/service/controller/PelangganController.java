@@ -26,16 +26,11 @@ public class PelangganController {
     
     @PostMapping("/")
     public Pelanggan savePelanggan(@RequestBody Pelanggan pelanggan){
-        return PelanggganService.savePelanggan(pelanggan);
+        return pelangganService.savePelanggan(pelanggan);
     }
-    
-      
-     @GetMapping("/(id)")
-     public Pelanggan  findPelangganById(@PathVariable("id") Long pelangganId){
-        return pelangganService.findPelangganById(pelangganId); 
-     }
-       
-    
-    
-    
+ 
+    @GetMapping("/{id}")
+    public Pelanggan findPelangganById(@PathVariable("id") Long pelangganId){
+        return pelangganService.findPelangganById(pelangganId);
+    }
 }
